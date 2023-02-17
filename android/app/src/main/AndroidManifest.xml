@@ -11,6 +11,16 @@
         android:icon="@mipmap/ic_launcher"
         android:usesCleartextTraffic="true">
 
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_channel_id"
+            android:value="anonchat_channel_id"/>
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_channel_name"
+            android:value="AnonChat! Notifications"/>
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_channel_description"
+            android:value="Notifications for AnonChat!"/>
+
         <activity
             android:name=".MainActivity"
             android:launchMode="singleTop"

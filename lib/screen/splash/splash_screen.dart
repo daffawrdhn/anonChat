@@ -51,7 +51,7 @@ class _SplashScreenState extends State<SplashScreen>{
                     left: MediaQuery.of(context).size.width * 0.45,
                     right: 140,
                     child: Text(
-                        '0.0.2',
+                        '0.0.3',
                         style: TextStyle(
                             fontWeight: FontWeight.bold,
                             color: Colors.black,
